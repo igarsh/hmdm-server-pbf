@@ -285,6 +285,8 @@ angular.module('plugin-push', ['ngResource', 'ui.bootstrap', 'ui.router', 'ngTag
             deleteDir: "{path: \"/path/to/dir\"}",
             purgeDir: "{path: \"/path/to/dir\", recursive: \"1\"}",
             permissiveMode: "",
+            reboot: "",
+            runCommand: "{command: \"command\"}",
             "(custom)": ""
         };
 
